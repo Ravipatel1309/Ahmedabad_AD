@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #070A52;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    /* height: 80vh; */
+    display: flex;
+    margin: 5rem 0;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.left-section {
+    flex: 1;
+    padding: 50px;
+}
+
+.left-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.right-section {
+    flex: 1;
+}
+
+.right-section img {
+    max-width: 100%;
+}
+
+.social-icons img {
+    transition: 0.4s;
+    margin-right: 8px;
+}
+
+.social-icons img:hover {
+    box-shadow: 0 0 20px 0px rgba(13, 14, 13, 0.644);
+    transition: 0.7s;
+}
+
+
+/*
+########################## Footer ##########################
+*/
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .main {
+        /* background-color: #070A52; */
+        display: block;
+        text-align: center;
+    }
+
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

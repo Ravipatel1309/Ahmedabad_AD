@@ -1,0 +1,114 @@
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/vecteezy_technology-background_ma1220.JPG);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.sub-header h1 {
+    margin-top: 100px;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-column {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-column img {
+    width: 100%;
+}
+
+.about-column h1 {
+    padding: 0;
+}
+
+.about-column p {
+    padding: 15px 0 25px;
+}
+
+.container_1 {
+    text-align: center;
+    background: #eceaea;
+}
+
+.header_1 {
+    padding-top: 60px;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+}
+
+.sub_container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 46px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.teams {
+    margin: 10px;
+    box-sizing: border-box;
+    transition: 0.4s;
+    cursor: pointer;
+    padding: 28px;
+    border: 1px solid rgb(202, 200, 200);
+    max-width: 50%;
+}
+
+
+.teams:hover {
+    /* background: rgb(202, 200, 200); */
+    box-shadow: 0 0 20px 0px rgba(13, 14, 13, 0.644);
+    transition: 0.7s;
+}
+
+.teams img {
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    padding: 5px;
+    font-size: 20px;
+    color: #f44336;
+    text-transform: uppercase;
+}
+
+.desig {
+    font-style: italic;
+    color: rgb(97, 78, 78);
+    margin: 12px 0;
+    font-weight: lighter;
+    /* color:#b18a50 */
+}
+
+.social-links_1 {
+    margin: 14px;
+}
+
+.social-links_1 a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    transition: 0.4s;
+}
+
+.social-links_1 a i {
+    color: #f44336;
+    /* color: #444; */
+}
