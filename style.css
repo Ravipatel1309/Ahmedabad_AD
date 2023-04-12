@@ -6,13 +6,36 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    /* to prevent image from repeating */
+    background-size: cover;
+
+}
+
+.instagram-media {
+    margin: auto !important;
+    border: 2px solid black !important;
+    border-radius: 0.5rem !important;
+}
+
+/*
+logo
+*/
+
+.logo img {
+    height: 10vh;
+}
+
 nav {
     display: flex;
+    /* position: fixed; */
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #070A52;
-    color: #fff;
+    padding: 10px 50px;
+    background-color: #f8da05;
+    color: #000;
 }
 
 nav ul {
@@ -25,8 +48,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
+    font-weight: 700;
 }
 
 main {
@@ -95,7 +119,7 @@ main {
 @media screen and (max-width: 768px) {
     .main {
         /* background-color: #070A52; */
-        display: block;
+        display: none;
         text-align: center;
     }
 
